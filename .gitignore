@@ -1,0 +1,16 @@
+*.log
+
+.gradle/
+build/
+out/
+
+.idea/
+*.iml
+
+.DS_Store
+Thumbs.db
+
+run/
+
+logs/
+crash-reports/

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "goobersmpmod",
+  "version": "${version}",
+
+  "name": "goobersmpmod",
+  "description": "goober smp mod",
+  "authors": ["redwoodsteve"],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/goobersmpmod/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.redwoodsteve.goobersmpmod.Goobersmpmod"]
+  },
+
+  "mixins": [
+    "goobersmpmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

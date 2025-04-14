@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.redwoodsteve.goobersmpmod.mixins",
+  "compatibilityLevel": "JAVA_21",
+
+  "mixins": [],
+  "client": [],
+  "server": [
+    "CraftingResultInventoryMixin",
+    "CraftingOutputSlotMixin",
+    "CrafterMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
